@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "Email address": "roedel.anton@sourcepass.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 3, 2023 at 14:22 (UTC-0400)"
+    },
+    {
+      "id": 2,
+      "Email address": "z1.anthonyberkley@anaxtech.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 5, 2023 at 16:09 (UTC-0400)"
+    },
+    {
+      "id": 3,
+      "Email address": "fsmith@ctnd.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 5, 2023 at 17:09 (UTC-0400)"
+    },
+    {
+      "id": 4,
+      "Email address": "brian.blundo@bluerocktech.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 3, 2023 at 15:02 (UTC-0400)"
+    },
+    {
+      "id": 5,
+      "Email address": "spencer@gohemisphere.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 5, 2023 at 11:00 (UTC-04:00)"
+    },
+    {
+      "id": 6,
+      "Email address": "becky.turner@cheekymonkey.co.uk",
+      "Suppression reason": "Bounce",
+      "Date added": "April 3, 2023 at 10:42 (UTC-04:00)"
+    },
+    {
+      "id": 7,
+      "Email address": "jacob@deveera.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 3, 2023 at 12:42 (UTC-0400)"
+    },
+    {
+      "id": 8,
+      "Email address": "r.miller@corsicatech.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 5, 2023 at 15:56 (UTC-04:00)"
+    },
+    {
+      "id": 9,
+      "Email address": "mike.castaneda@am-fm.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 3, 2023 at 11:05 (UTC-0400)"
+    },
+    {
+      "id": 10,
+      "Email address": "ljoseph@belttec.net",
+      "Suppression reason": "Bounce",
+      "Date added": "April 5, 2023 at 11:57 (UTC-0400)"
+    },
+    {
+      "id": 11,
+      "Email address": "john.doe@gmail.com",
+      "Suppression reason": "Bounce",
+      "Date added": "March 20, 2024 at 10:20 (UTC-0500)"
+    },
+    {
+      "id": 12,
+      "Email address": "jane.smith@gmail.com",
+      "Suppression reason": "Complaint",
+      "Date added": "March 15, 2024 at 09:40 (UTC-0500)"
+    },
+    {
+      "id": 13,
+      "Email address": "alice.wonder@gmail.com",
+      "Suppression reason": "Unsubscribe",
+      "Date added": "February 28, 2024 at 14:30 (UTC-0500)"
+    },
+    {
+      "id": 14,
+      "Email address": "bob.builder@gmail.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 1, 2023 at 16:55 (UTC-0500)"
+    },
+    {
+      "id": 15,
+      "Email address": "charlie.brown@gmail.com",
+      "Suppression reason": "Complaint",
+      "Date added": "January 10, 2024 at 12:15 (UTC-0500)"
+    },
+    {
+      "id": 16,
+      "Email address": "david.tennant@gmail.com",
+      "Suppression reason": "Unsubscribe",
+      "Date added": "March 30, 2024 at 18:45 (UTC-0500)"
+    },
+    {
+      "id": 17,
+      "Email address": "emily.brontë@gmail.com",
+      "Suppression reason": "Bounce",
+      "Date added": "April 5, 2024 at 08:10 (UTC-0500)"
+    },
+    {
+      "id": 18,
+      "Email address": "frank.sinatra@gmail.com",
+      "Suppression reason": "Complaint",
+      "Date added": "February 22, 2024 at 20:30 (UTC-0500)"
+    },
+    {
+      "id": 19,
+      "Email address": "grace.kelly@gmail.com",
+      "Suppression reason": "Unsubscribe",
+      "Date added": "January 25, 2024 at 11:50 (UTC-0500)"
+    },
+    {
+      "id": 20,
+      "Email address": "harry.potter@gmail.com",
+      "Suppression reason": "Bounce",
+      "Date added": "February 14, 2024 at 22:20 (UTC-0500)"
+    }
+  ]
+}

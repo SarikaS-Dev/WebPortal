@@ -1,0 +1,108 @@
+/*----------------------------------
+# HEADER
+----------------------------------*/
+
+.header {
+  transition: all 0.5s;
+  z-index: 997;
+  height: 60px;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+  padding-left: 20px;
+}
+
+/* Search Bar */
+/* Toggle Sidebar Button */
+.header .toggle-sidebar-btn {
+  font-size: 32px;
+  padding-left: 80px;
+  cursor: pointer;
+  color: #012970;
+}
+
+.header .bi-list {
+  color: #012970;
+}
+
+.logo {
+  line-height: 1;
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 200px;
+  }
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.header-title {
+  flex: 1;
+  text-align: center;
+}
+
+.user-info span {
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.user-info {
+  font-weight: bold;
+  padding: 5px 10px 5px 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #012970;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.logout-icon {
+  cursor: pointer;
+  color: #012970 !important;
+  font-size: 28px;
+  font-weight: bold;
+  content: "\f00d";
+  margin-right: 20px;
+}
+
+.logout-icon:hover {
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.cw-logo1 {
+  display: none;
+}
+
+/* Media query for screens less than 500px */
+@media only screen and (max-width: 720px) {
+  /* Hide the original logo */
+  .cw-logo {
+    display: none;
+  }
+
+  /* Show the new logo */
+  .cw-logo1 {
+    display: block;
+  }
+
+  .header .toggle-sidebar-btn {
+    font-size: 32px;
+    padding-left: 80px;
+    cursor: pointer;
+    color: #012970;
+  }
+}
+
+/* Media query for screens less than 500px */
+@media only screen and (min-width: 1367px) {
+  .user-info span {
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  
+}

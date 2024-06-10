@@ -1,0 +1,298 @@
+.table-container {
+  position: relative;
+  overflow: auto;
+}
+
+.table-header,
+.table-footer {
+  position: sticky;
+  z-index: 1;
+  background-color: white; 
+}
+
+.table-header {
+  top: 0;
+}
+
+.table-footer {
+  bottom: 0;
+}
+
+.table-header th,
+.table-footer td {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+.table-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  background-color: white; 
+  z-index: 1;
+  padding: 8px; 
+}
+
+.MuiTablePagination-toolbar {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 8px; 
+}
+
+.MuiTablePagination-spacer {
+  display: none;
+}
+
+.MuiTablePagination-actions {
+  margin-left: 4px;
+}
+
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-displayedRows {
+  margin: 0; 
+}
+
+.container1 {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 400px !important;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(204, 219, 232, 0.5) -3px -3px 6px 1px inset;
+  border: 1px solid #fff;
+  background-color: white;
+  border-radius: 5px;
+  height: 42px !important;
+}
+
+.finder__input {
+  background-color: transparent;
+  outline: none;
+  font-size: 1.5rem;
+  letter-spacing: 0.75px;
+}
+
+.finder__icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  position: relative;
+  color: #012970;
+}
+
+.css-1whpjm6-MuiToolbar-root,
+.css-10cbwbc-MuiTableRow-root.Mui-selected {
+  background-color: #d0e2ff !important;
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #012970 !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active
+  .MuiTableSortLabel-icon,
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active,
+.css-1ygcj2i-MuiTableCell-root,
+.css-i4bv87-MuiSvgIcon-root {
+  opacity: 1;
+  color: #012970 !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active,
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root {
+  font-size: 1.1em;
+}
+
+.svg {
+  color: red !important;
+}
+
+.font-effect {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+}
+
+.MuiToolbar-root .MuiButtonBase-root.MuiIconButton-root {
+  margin-left: 8px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.MuiToolbar-root .MuiButtonBase-root.MuiIconButton-root:hover {
+  background-color: rgba(204, 219, 232, 0.1) !important;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(204, 219, 232, 0.5) -3px -3px 6px 1px inset;
+}
+
+/* Style for screens wider than 1367px */
+@media (min-width: 1368px) {
+  .table-container {
+    max-height: 630px; 
+  }
+}
+
+@media (max-width: 1367px) and (min-height: 650px) {
+  .table-container {
+    max-height: 500px !important; 
+  }
+}
+
+/* Style for screens narrower than 1367px */
+@media (max-width: 1367px) {
+  .table-container {
+    max-height: 330px; 
+  }
+}
+
+.button {
+  --background: #012970; /* Light Red */
+  --background-hover: #1a4da3; /* Dark Red */
+  --text: #fff;
+  --icon: #fff;
+  display: flex;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  margin-left: 20px;
+  min-width: 120px;
+  padding: 9px 20px 9px 12px;
+  border-radius: 8px;
+  line-height: 24px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+  color: var(--text);
+  background: var(--b, var(--background));
+  transition: transform 0.3s, background 0.4s;
+  transform: scale(var(--scale, 1)) translateZ(0);
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: 9px 9px 16px rgba(189, 189, 189, 0.6) !important;
+}
+
+.button:active {
+  --scale: 0.95;
+}
+
+.button:hover {
+  --b: var(--background-hover);
+  box-shadow: inset 6px 6px 10px 0 rgba(204, 219, 232, 0.4),
+  inset -6px -6px 10px 0 rgba(204, 219, 232, 0.5);
+}
+
+.button .icon,
+.button span {
+  display: inline-block;
+  vertical-align: top;
+  transform: translateZ(0);
+}
+
+.button .icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+  margin-right: 8px;
+  color: var(--text);
+}
+
+.button .icon svg {
+  width: 96px;
+  height: 96px;
+  display: block;
+  position: absolute;
+  left: -36px;
+  top: -36px;
+  will-change: transform;
+  fill: var(--icon);
+  transform: scale(0.254) translateZ(0);
+  animation: var(--name, var(--name-top, none)) 2200ms ease forwards;
+}
+
+.button .icon svg.bottom {
+  --name: var(--name-bottom, none);
+}
+
+.button span {
+  animation: var(--name-text, none) 2200ms ease forwards;
+}
+
+.button.delete {
+  --name-top: trash-top;
+  --name-bottom: trash-bottom;
+  --name-text: text;
+}
+
+@keyframes trash-bottom {
+  25%,
+  32% {
+    transform: translate(32px, 19px) scale(1) translateZ(0);
+  }
+  70%,
+  80% {
+    transform: translate(32px, 0) scale(0.254) translateZ(0);
+  }
+  100% {
+    transform: scale(0.254) translateZ(0);
+  }
+}
+
+@keyframes trash-top {
+  25%,
+  32% {
+    transform: translate(38px, 4px) scale(1) rotate(-20deg) translateZ(0);
+  }
+  70%,
+  80% {
+    transform: translate(32px, 0) scale(0.254) translateZ(0);
+  }
+  100% {
+    transform: scale(0.254) translateZ(0);
+  }
+}
+
+@keyframes text {
+  25% {
+    transform: translate(-4px, -4px) rotate(-20deg) translateZ(0);
+  }
+  70% {
+    opacity: 1;
+    transform: translate(-12px, 48px) rotate(-80deg) scale(0.2) translateZ(0);
+  }
+  71% {
+    opacity: 0;
+  }
+  72%,
+  90% {
+    opacity: 0;
+    transform: translateZ(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(85, 85, 85, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1300; /* Make sure it's above other elements */
+}
